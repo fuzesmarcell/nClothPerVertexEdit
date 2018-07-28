@@ -13,7 +13,7 @@ Set the newly created cubes perVertex attributes with the given values
 from maya import cmds
 cmds.polyCube()
 cmds.nClothCreate()
-NOTE: The given list lenght must match the amount of vertices a mesh has if this is not the case might cause undefined behaviour
+# NOTE: The given list lenght must match the amount of vertices a mesh has if this is not the case might cause undefined behaviour
 cmds.setNClothPerVertex(plugName = "inputAttractPerVertex", vertexWeight = [0.8, 0.1, 0.5, 0.1, 0.5, 1.0, 1.0, 0.1])
 ```
 ## getNClothPerVertex
