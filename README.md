@@ -1,5 +1,5 @@
 # nClothPerVertexEdit
-Maya Python plugin for seting and geting per vertex attributes on nCloth or nRigid objects
+Maya Python plugin for setting and getting per vertex attributes on nCloth or nRigid objects
 
 # Plugin Contents
 ## Commands
