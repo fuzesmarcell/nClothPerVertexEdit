@@ -7,6 +7,7 @@ Maya Python plugin for seting and geting per vertex attributes on nCloth or nRig
 * getNClothPerVertex
 
 # Example Usage
+Simply load the plugin from your plugin manager and choose the nClothPerVertexEdit.py file.
 ## setNClothPerVertex
 Set the newly created cubes perVertex attributes with the given values
 ```
