@@ -30,24 +30,26 @@ perVertWeight = cmds.getNClothPerVertex(plugName = "inputAttractPerVertex")
 print(perVertWeight)
 ```
 ### All valid plugName flags
-* thicknessPerVertex
+#### nCloth and nRigid
 * bouncePerVertex
-* frictionPerVertex
-* dampPerVertex
-* stickinessPerVertex
 * collideStrengthPerVertex
-* massPerVertex
 * fieldMagnitudePerVertex
-* stretchPerVertex
-* compressionPerVertex
+* frictionPerVertex
+* stickinessPerVertex
+* thicknessPerVertex
+#### Only nCloth
+* tangentialDragPerVertex
 * bendPerVertex
 * bendAngleDropoffPerVertex
+* compressionPerVertex
+* dampPerVertex
+* deformPerVertex
+* dragPerVertex
+* inputAttractPerVertex
+* liftPerVertex
+* massPerVertex
+* restLengthScalePerVertex
 * restitutionAnglePerVertex
 * rigidityPerVertex
-* deformPerVertex
-* inputAttractPerVertex
-* restLengthScalePerVertex
-* liftPerVertex
-* dragPerVertex
-* tangentialDragPerVertex
+* stretchPerVertex
 * wrinklePerVertex
